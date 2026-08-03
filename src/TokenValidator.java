@@ -1,6 +1,6 @@
 public class TokenValidator {
     public boolean validate(Session session) {
-        int timeout = 30;
+        int timeout = 60;
         if (session.isActive()) {
             return session.age() < timeout;
         }
