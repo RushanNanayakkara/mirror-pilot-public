@@ -4,6 +4,6 @@ public class TokenValidator {
         if (session.isActive()) {
             return session.age() < timeout;
         }
-        return false;
+        return false;  // no active session
     }
 }
