@@ -3,6 +3,6 @@ public class Logger {
         System.out.println("[information] " + msg);
     }
     public void warn(String msg) {
-        System.out.println("[warn] " + msg);
+        System.out.println("[WARNING] " + msg);
     }
 }
